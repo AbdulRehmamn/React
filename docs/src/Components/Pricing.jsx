@@ -4,8 +4,8 @@ const PricingCard = () => {
   return (
     <div className="card2 flex flex-col md:flex-row justify-center items-center min-h-screen px-4 gap-6 mt-0 ">
       {/* Left Section */}
-      <div className="bg-black text-white p-6 md:p-8 rounded-lg w-full md:w-1/2 relative border-2">
-        <span className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs md:text-sm font-semibold">
+      <div className="bg-black text-white p-6 md:p-8 rounded-lg w-full md:w-1/2 md:mb-31 border-2">
+        <span className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs md:text-sm font-semibold ">
           🔴 Only 1 slot available
         </span>
         <h1 className="text-3xl md:text-4xl font-bold mt-2 md:mt-4">Join 100xelevate</h1>

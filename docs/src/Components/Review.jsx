@@ -45,18 +45,18 @@ const benefits = [
 const Reviews = () => {
   return (
     <div className="px-4">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center ">
         <div className="pt-20 md:pt-44">
           <h1 className="md:text-7xl text-4xl text-center">
             Benefits to join 100xelevate
           </h1>
-          <h3 className="text-center mt-8 md:mt-24 px-6 md:px-45 text-lg md:text-2xl ">
-            Perks so good you’ll never need to go anywhere else. <br />
-            <span className="block">Seriously!</span>
+          <h3 className="text-center mt-8 md:mt-24 px-6 md:px-45 text-lg md:text-2xl md:-translate-7">
+            Perks so good you’ll never need to go anywhere else Seriously! <br />
+            
           </h3>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:px-10 mx-auto md:mx-40  ">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:px-10 mx-auto   ">
           {benefits.map((benefit) => (
             <div
               key={benefit.id}
@@ -73,7 +73,7 @@ const Reviews = () => {
               <h1 className="text-base md:text-lg font-bold text-white ">
                 {benefit.title}
               </h1>
-              <p className="text-gray-400 text-sm">{benefit.description}</p>
+              <p className="text-gray-400 text-xl">{benefit.description}</p>
             </div>
           ))}
         </div>

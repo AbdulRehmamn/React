@@ -67,7 +67,7 @@ const StickyProjectSection = () => {
               <img
                 src={project.img}
                 alt={project.title}
-                className={`h-auto w-full transition-transform duration-500 ease-in-out group-hover:scale-105 ${translateValue}`}
+                className={`h-auto w-full transition-transform duration-500 ease-in-out group-hover:scale-105 ${translateValue} `}
               />
               <div className="absolute inset-0 flex flex-col justify-end items-start bg-gradient-to-t from-black/60 via-black/20 to-transparent p-2 sm:p-4">
                 <p className="text-white text-sm sm:text-lg md:text-2xl font-bold text-left">

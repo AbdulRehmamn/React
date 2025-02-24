@@ -34,9 +34,9 @@ const Footer = () => {
     <div className="flex flex-col mt-10 px-6 md:px-16">
       
       {/* Main Header */}
-      <h1 className="flex justify-center font-extrabold text-center text-5xl md:text-[100px] lg:text-[215px]  text-amber-500 sm:text-4xl lg-text-xl lg:font-light">
-        Let’s work <br className="hidden md:block" /> together.
-      </h1>
+      <h1 className="flex justify-center items-center font-extrabold text-3xl md:text-[50px] lg:text-[115px] text-amber-500 sm:text-4xl lg-text-xl lg:font-light whitespace-nowrap">
+  Let’s work together.
+</h1>
 
       {/* CTA Section */}
       <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-x-10 mt-10 text-center md:text-left">
@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Links */}
-      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-sm mt-12">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-small mt-12 sm:text-xl">
         <FooterLinks title="Company" links={["Our Work", "ROI Calculator", "Get Free Audit", "Instant Checkout Link Generator"]} />
         <FooterLinks title="Services" links={["Shopify Advisory / Enablement", "Subscription Tech", "AI & Workflow Automation", "Technical Partner to the C-Suite", "Strategic Roadmapping"]} />
         <FooterLinks title="Others" links={["Pricing", "Insights", "Contact", "Reviews"]} />

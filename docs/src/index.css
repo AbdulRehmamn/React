@@ -4,11 +4,12 @@ body {
   
 }
 @theme{
-  --breakpoint-xsm: 300px;
-  --breakpoint-xxl: 1400px;
+  ---breakpoint-*: initial;
+  --breakpoint-xxl: 1440px;
   --breakpoint-xl: 1200px;
-  --breakpoint-lg: 992px;
+  --breakpoint-lg: 881px;
   --breakpoint-md: 769px;
   --breakpoint-sm: 576px;  
+
 
 }

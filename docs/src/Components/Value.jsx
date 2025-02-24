@@ -27,12 +27,12 @@ const ProcessSection = () => {
   return (
     <div className="flex flex-col items-center text-center mt-24">
     
-      <h1 className="text-white  md:text-4xl font-bold sm:text-2xl">
+      <h1 className="text-white text-2xl  md:text-6xl font-bold sm:text-2xl">
         We didn’t reinvent the <br /> wheel. Just develop.
       </h1>
 
       <h3 className="text-white md:text-xl mt-6 sm:font-light">
-        We ensure our clients get exceptional value for what they pay.
+        
       </h3>
 
      

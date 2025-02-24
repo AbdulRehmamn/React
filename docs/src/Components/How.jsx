@@ -2,7 +2,7 @@ const How = () =>{
 return(
 <div className="flex flex-col justify-center items-center mt-10">
 
-  <button className="border border-amber-400 rounded-2xl w-30 h-10">
+  <button className="border border-amber-400 rounded-2xl w-30 h-10 md:w-40 h-12">
     How It Works
   </button>
 
@@ -13,7 +13,7 @@ return(
     </h1>
   </div>
 
-  <div className="relative flex flex-col md:flex-row justify-between items-center bg-zinc-900 border border-gray-700 rounded-lg p-6 md:p-8 mt-10 h-auto md:h-[500px] w-full md:w-[900px] shadow-lg">
+  <div className="relative flex flex-col md:flex-row justify-between items-center bg-zinc-900 border border-gray-700 sm:w-fit w-fit rounded-lg p-6 md:p-8 mt-10 h-auto md:h-[500px]  md:w-[900px] shadow-lg">
   
   {/* Left Section */}
   <div className="flex flex-col justify-center w-full md:w-1/2 text-center md:text-left">
